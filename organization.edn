@@ -1,3 +1,12 @@
 ;; Real-world organization location / contact.
 ;; :head-role is institutional title only — no personal names.
-{:contact-page "https://www.wikidata.org/wiki/Q90", :ooyake-id "gov.fra", :sourced-from "com-etzhayyim-ooyake gov-units (verbatim where present)", :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored", :official-url "https://www.gouvernement.fr/", :hq {:line-en "Paris", :country "fra", :kind "capital", :provenance "https://www.wikidata.org/wiki/Q90", :last-verified "2026-06-04", :sourcing "authoritative"}, :wikidata "Q142", :name-en "French Republic", :name-local "République française"}
+{:ooyake-id "gov.fra"
+  :official-url "https://www.gouvernement.fr/"
+  :name-en "French Republic"
+  :name-local "République française"
+  :wikidata "Q142"
+  :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+  :contact-page "https://www.wikidata.org/wiki/Q90"
+  :sourced-from "com-etzhayyim-ooyake gov-units (verbatim where present)"
+  :hq {:line-en "Paris" :country "fra" :kind "capital" :provenance "https://www.wikidata.org/wiki/Q90" :last-verified "2026-06-04" :sourcing "authoritative"}
+}
