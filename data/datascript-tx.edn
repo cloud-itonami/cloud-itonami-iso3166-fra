@@ -1,0 +1,31 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "fra.code-de-commerce"
+           :title "Code de commerce"
+           :jurisdiction "FRA"
+           :kind :law
+           :law-number "LEGITEXT000005634379"
+           :url "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000005634379/"
+           :url-provenance :official-legifrance
+           :retrieved-at "2026-07-14"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "fra.loi-informatique-et-libertes"
+           :title "Loi n° 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés"
+           :jurisdiction "FRA"
+           :kind :law
+           :law-number "Loi n° 78-17"
+           :url "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000886460/"
+           :url-provenance :official-legifrance
+           :enacted-date "1978-01-06"
+           :retrieved-at "2026-07-14"
+           :topic [:data-protection :privacy]}
+ #:statute{:id "fra.code-du-travail"
+           :title "Code du travail"
+           :jurisdiction "FRA"
+           :kind :law
+           :law-number "LEGITEXT000006072050"
+           :url "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006072050"
+           :url-provenance :official-legifrance
+           :retrieved-at "2026-07-14"
+           :topic [:labor :employment]}]
