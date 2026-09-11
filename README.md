@@ -5,8 +5,8 @@
 Flagship HARD: `eu-establishment-missing` · tax HARD: `siret-unverified`
 
 ```
-clojure -M:dev:test
-clojure -M:dev:run
+kbb -M:dev:test
+kbb -M:dev:run
 ```
 
 AGPL-3.0-or-later.
